@@ -260,10 +260,11 @@ def filtered_histogram_open():
 
 
 main_frame = Tk()
-main_frame.title('среднегармонический и среднегеометрический фильтры')
+main_frame.title('Среднегармонический и Среднегеометрический фильтры')
 
 
 original_image_path_field = Entry(main_frame, font=40, width=55)
+original_image_path_field.insert(0, 'C:/Users/a-pc/Downloads/Telegram Desktop/2021-12-09_22-19-48.png')
 find_image_button = Button(main_frame, text='Открыть', command=find_image, font=40)
 show_image_button = Button(main_frame, text='Показать', command=show_image, font=40)
 
@@ -322,7 +323,7 @@ def help_open():
 help_field = Label(main_frame, text='\n'
                                     '=== Информация о приложении:\n'
                                     '\n'
-                                    'Версия приложения: 1.1.\n'
+                                    'Версия приложения: 1.0.\n'
                                     '\n'
                                     'Данное приоржение представляет собой пользовательский интерфейс\n'
                                     'для фильтрации изображений со следующим набором функций:\n'
